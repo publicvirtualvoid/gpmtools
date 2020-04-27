@@ -1,0 +1,17 @@
+{
+  "name": "gpmtools",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^13.13.4",
+    "@types/playmusic": "^2.3.0",
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.3",
+    "playmusic": "^2.3.0",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "watch": "concurrently \"tsc --watch\" \"nodemon --inspect-brk dist/index.js\""
+  }
+}
